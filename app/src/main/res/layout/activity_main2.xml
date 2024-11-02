@@ -144,7 +144,7 @@
         app:layout_constraintVertical_bias="0.559" />
 
     <TextView
-        android:id="@+id/text10xd"
+        android:id="@+id/texat10xd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lun/Soleado"
@@ -214,7 +214,7 @@
         app:layout_constraintVertical_bias="0.751" />
 
     <TextView
-        android:id="@+id/text10xd"
+        android:id="@+id/texdt10xd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Mie/Soleado"
@@ -267,7 +267,7 @@
         app:layout_constraintVertical_bias="0.852" />
 
     <TextView
-        android:id="@+id/text10xd"
+        android:id="@+id/atext10xd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Jue/Nublado"
@@ -319,7 +319,7 @@
     <Button
         android:id="@+id/button"
         android:layout_width="359dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:text="Agregar mas ciudades"
         android:background="@drawable/bordesbuscador"
         app:layout_constraintBottom_toBottomOf="parent"

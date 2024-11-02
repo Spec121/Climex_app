@@ -1,17 +1,26 @@
-Climex_app
+# Climex_app
 
-Esta aplicación es un prototipo de una aplicación del clima la cual tiene un login junto a un pronostico del clima el cual utilza una api para dar el clima de la ciudad seleccionada con la implementación de SQLite junto a un crud
+**Climex_app** es un prototipo de aplicación de clima que permite a los usuarios iniciar sesión y ver el pronóstico del clima de una ciudad seleccionada. La aplicación se conecta a una API de clima para obtener información en tiempo real y utiliza SQLite para gestionar y almacenar datos de los usuarios, con funcionalidad CRUD (crear, leer, actualizar y eliminar).
 
-Funcionalidades
+## Funcionalidades
 
-Mostrar el pronostico del clima de la ciudad seleccionada
+- **Pronóstico del clima**: Muestra el pronóstico de la ciudad seleccionada usando datos de una API de clima.
+- **Autenticación de usuarios**: Implementa un sistema de inicio de sesión para acceder a la aplicación.
+- **Gestión de usuarios con CRUD**:
+  - Crear: Permite registrar nuevos usuarios.
+  - Leer: Consultar datos de los usuarios.
+  - Actualizar: Editar información de los usuarios.
+  - Eliminar: Borrar registros de usuarios.
 
-Implementación de un CRUD(crear ,leer, actualizar, eliminar)
+## Tecnologías y Herramientas
 
-Instrucciones de Ejecución
+- **Android Studio**: Entorno de desarrollo.
+- **API de clima**: Para obtener el pronóstico de la ciudad seleccionada.
+- **SQLite**: Base de datos local para la gestión de usuarios y almacenamiento de datos.
+- **Java**: Lenguaje de programación principal de la aplicación.
 
-Clona el repositorio: https://github.com/Spec121/Climex_app.git
+## Instrucciones de Ejecución
 
-Abre el proyecto en Android Studio.
-
-Ejecuta la aplicación en un dispositivo(usando cable USB) o emulador Android.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Spec121/Climex_app.git
